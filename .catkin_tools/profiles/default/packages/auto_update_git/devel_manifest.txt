@@ -1,0 +1,5 @@
+auto_update_git
+/home/rajesh/ROS_Workspaces/Auto_Updater_WS/devel/.private/auto_update_git/cmake.lock /home/rajesh/ROS_Workspaces/Auto_Updater_WS/devel/./cmake.lock
+/home/rajesh/ROS_Workspaces/Auto_Updater_WS/devel/.private/auto_update_git/share/auto_update_git/cmake/auto_update_gitConfig.cmake /home/rajesh/ROS_Workspaces/Auto_Updater_WS/devel/share/auto_update_git/cmake/auto_update_gitConfig.cmake
+/home/rajesh/ROS_Workspaces/Auto_Updater_WS/devel/.private/auto_update_git/share/auto_update_git/cmake/auto_update_gitConfig-version.cmake /home/rajesh/ROS_Workspaces/Auto_Updater_WS/devel/share/auto_update_git/cmake/auto_update_gitConfig-version.cmake
+/home/rajesh/ROS_Workspaces/Auto_Updater_WS/devel/.private/auto_update_git/lib/pkgconfig/auto_update_git.pc /home/rajesh/ROS_Workspaces/Auto_Updater_WS/devel/lib/pkgconfig/auto_update_git.pc

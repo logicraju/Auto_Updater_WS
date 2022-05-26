@@ -1,9 +1,14 @@
-AUTO GIT UPDATER
-----------------
+ROBOT UPDATER
+=============
 
-Description: ROS Package to update from git automatically when the robot boots up
+
+Description
+-----------
+ROS Package to update from git automatically when the robot boots up
+
 
 Instructions
+------------
 
 1. Install robot-upstart package using the following command
 	sudo apt install ros-$ROS_DISTRO-robot-upstart
@@ -27,5 +32,11 @@ Instructions
 	journalctl -u auto_update_git -f
 
 8. Make sure this ros worksapce is "sourced" in .bashrc beforehand
+
+
+Dependencies
+------------
+sudo apt-get update
+sudo apt-get install python3-catkin-tools
 
 
