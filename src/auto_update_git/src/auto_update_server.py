@@ -13,9 +13,8 @@ def trigger_response(request):
         output = subprocess.run(['./robot_update.sh'])
         print('Return code:', output)
         print(os.getcwd())
-        if(output == 0):
-            status = True
-            msg = "Robot update succesful !" 
+        status = True
+        msg = "Robot update succesful !" 
     except Exception as e:
         rospy.loginfo("Exception: " + str(e))
         status = False
