@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <launch>
 	
-	<node name="auto_update_git" pkg="auto_update_git" type="auto_update_server.py" output="screen"/>
+	<node name="robot_update" pkg="auto_update_git" type="auto_update_server.py" output="screen"/>
 	
 </launch>

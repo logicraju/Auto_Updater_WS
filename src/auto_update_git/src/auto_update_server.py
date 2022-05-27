@@ -4,6 +4,8 @@ from std_srvs.srv import Trigger, TriggerResponse
 
 def trigger_response(request):
     try:
+        status = False
+        msg = "" 
         rospack = rospkg.RosPack()
         filepath = rospack.get_path('auto_update_git')
         os.chdir(filepath+"/src")
@@ -13,10 +15,7 @@ def trigger_response(request):
         print(os.getcwd())
         if(output == 0):
             status = True
-            msg = "Robot update succesful !"
-        else:
-            status = False
-            msg = "Robot update unsuccesful ..."    
+            msg = "Robot update succesful !" 
     except Exception as e:
         rospy.loginfo("Exception: " + str(e))
         status = False
